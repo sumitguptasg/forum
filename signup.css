@@ -1,0 +1,99 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-size: cover;
+	background-position: center;
+}
+.container{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+img.full-img { 
+    height: 100%;
+    width: 100%;
+    opacity: 0.65;
+    display: block;
+}
+img:hover{
+	opacity: 1;
+}
+#reg-centre{
+	background: #000;
+	width: 430px;
+	height: 600px;
+	color: #fff;
+	opacity: ;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	border: 2px solid #685CD0;
+	border-radius: 15%;
+}
+#box{
+	color: #;
+	padding: 70px 20px;
+	box-sizing: border-box;
+}
+
+input[type="text"], input[type="password"],input[type="number"], input[type="Email"]
+{
+	border: none;
+	border-bottom: 2px solid #685CD0;
+	background: transparent;
+	outline: ;
+	height: 25px;
+	color: #fff;
+	width: 100%;
+}
+
+div.radio-box{
+	position: absolute;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	height: auto;
+	width: 90%;
+
+}
+input[type="radio"]{
+	border: 3px transparent;
+}
+
+div.submit-btn{
+	position: relative;
+	transform: translate(0%,100%);
+}
+
+.fr-avatar{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	position: absolute;
+	border: 3px solid #685CD0;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+
+input[type="submit"]{
+	position: relative;
+	top: 20px;
+	left: 50%;
+	transform: translate(-50%,0%);
+	padding: 10px 0 10px;
+	height: 50px;
+	width: 50%;
+	border: none;
+	border-bottom: 3px solid #685CD0;
+	background: transparent;
+	background-color: #685CD0;
+	font-size: 18px;
+	font-family: sans-serif;
+	opacity: 1;
+}

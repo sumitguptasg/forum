@@ -1,0 +1,14 @@
+body{
+	height: 100%;
+	width: 100%;
+
+}
+
+.middle{
+	background-color: #685CD0;
+	width: 100px;
+	height: 500px;
+	margin-left: 10%;
+	margin-right: 10%;
+	border: 3px solid #685CD0;
+}
